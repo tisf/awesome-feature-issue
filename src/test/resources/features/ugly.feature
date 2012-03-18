@@ -1,10 +1,9 @@
-Feature: This is a ugly feature to have
+Feature: This is an ugly feature to have
 
-Background:
+  Background:
     Given I am logged into the app
 
-@ugly
-Scenario: When I smash something I should get hurt
-        When I smash the first page
-        Then I should scream "auuuch"
-        
+  @ugly
+  Scenario: When I smash something I should get hurt
+    When I smash the first page
+    Then I should scream "auuuch"
